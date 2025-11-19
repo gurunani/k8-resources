@@ -5,11 +5,11 @@ metadata:
   labels:
     project: roboshop
     purpose: demo
-  spec:
-    containers:
+spec:
+  containers:
     - name: nginx-container
       image: nginx:latest
       ports:
-      - containerPort: 80
+        - containerPort: 80
     - name: almalinux-container
       image: almalinux:9

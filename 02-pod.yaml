@@ -13,3 +13,4 @@ spec:                       # <-- moved out of metadata
         - containerPort: 80
     - name: almalinux-container
       image: almalinux:9
+      command: ["/bin/sleep", "infinity"]
